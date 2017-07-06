@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Tweets</h1>
+
+  <div>
+    <% @tweets.each do |tweet| %>
+        <p>
+          <strong><%= tweet.user.email %></strong>
+          <br>
+          <%= tweet.content %>
+          <br>
+          <%= link_to(time_ago_in_words(tweet.created_at) + ' ago', tweet) %>
+        </p>
+        <td><%= link_to 'Delete', tweet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+</div>
+
+<br>
+
+<%= link_to 'New Tweet', new_tweet_path %>
