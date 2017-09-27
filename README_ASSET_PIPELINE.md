@@ -9,6 +9,13 @@ In short, the main objective of the Asset Pipeline is to optimise JS/CSS into th
 
 The main motivation for doing this is to reduce latency and cost in the production enironment.
 
+
+Aside: the SASS gem
+---------
+
+Quick example of the SASS gem.
+Follow commits in the `sass-gem` repo.
+
 Sprockets
 ----------
 
@@ -93,7 +100,8 @@ Add an image to our index page
 Ensure this is located in the correct directory.
 
 Use the `image_tag` helper.
-
+Aside to action view helpers:
+http://guides.rubyonrails.org/action_view_overview.html#assettaghelper
 
 
 Run the server in development mode
@@ -111,8 +119,8 @@ Run the server in production mode
 Create and edit the following in `./run-production.sh`
 
 ```
-export RAILS_SERVE_STATIC_FILES=1; 
 export RAILS_ENV=production; 
+export RAILS_SERVE_STATIC_FILES=1; 
 export SECRET_KEY_BASE=set_this_to_something;
 
 bundle exec rake assets:clobber
