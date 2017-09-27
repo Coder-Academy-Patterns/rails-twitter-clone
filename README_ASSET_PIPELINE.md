@@ -163,12 +163,22 @@ Run the server in development and production mode to notice the difference in th
 ERB in CSS
 -------
 
-Use `<%= asset_path "iamge.png" %>` in `background-image` 
+Use `<%= asset_path "image.png" %>` in `background-image` 
+
+SCSS processing and supportive functions
+--------
+Rename `application.css` to `application.scss` 
+Use `asset_path()` in CSS property, eg.
+```
+   background-image: url(asset_path("ca.png"));
+```
 
 Fonts in the asset pipeline
 -----------
 
 WIP: Discussion / example
+A word on fonts: https://gist.github.com/anotheruiguy/7379570
+
 
 Bootstrap
 --------
