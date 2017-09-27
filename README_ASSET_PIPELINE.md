@@ -181,11 +181,6 @@ Use `asset_path()` in CSS property, eg.
    background-image: url(asset_path("ca.png"));
 ```
 
-Fonts in the asset pipeline
------------
-
-Discussion / example
-A word on fonts: https://gist.github.com/anotheruiguy/7379570
 
 
 Bootstrap
@@ -215,10 +210,21 @@ https://dresssed.com/
 http://bootswatchr.com/gallery
 https://www.bootstrap-live-customizer.com/
 
-Content Delivery Networks
--------
 
-WIP: Discussion on implications for CDN
+`assets`, `lib` and `vendor` directories
+----------
+
+`assets` is for your code that is specific to this particular application.
+
+`lib` is for your code that is common to several projects eg. utility libraries
+
+`vendor` is for third-party code that is being imported eg. plugin code
+
+Extension: Fonts in the asset pipeline
+-----------
+
+Discussion / example
+A word on fonts: https://gist.github.com/anotheruiguy/7379570
 
 
 Challenges
