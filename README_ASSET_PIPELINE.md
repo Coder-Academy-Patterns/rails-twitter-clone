@@ -176,15 +176,24 @@ Use `asset_path()` in CSS property, eg.
 Fonts in the asset pipeline
 -----------
 
-WIP: Discussion / example
+Discussion / example
 A word on fonts: https://gist.github.com/anotheruiguy/7379570
 
 
 Bootstrap
 --------
 
-WIP: install and configure `sass-bootstrap` gem.
+Install and configure `sass-bootstrap` gem.
 https://github.com/twbs/bootstrap-sass
+
+Reference: 
+https://getbootstrap.com/docs/3.3/
+
+Glyphicons:
+`glyphicon glyphicon-asterisk`
+
+Customising: 
+https://getbootstrap.com/docs/3.3/customize/
 
 Rails themes
 ---------
@@ -192,7 +201,11 @@ Find a theme, may be based on bootstrap and install.
 
 eg.
 https://bootswatch.com/
+
+Also:
 https://dresssed.com/
+http://bootswatchr.com/gallery
+https://www.bootstrap-live-customizer.com/
 
 Content Delivery Networks
 -------
