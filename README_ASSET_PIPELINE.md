@@ -71,9 +71,9 @@ Destination
 public/assets
 ```
 
-The `app/assets/config/manifest.js` is where this is currently configured.
+The `config/initializers/assets.rb` is where this is currently configured.
 
-Note that in previous versions it was done in a more cryptic way in `config/` files.  And further, in future versions it may move back to the `config/` directory with the new syntax.
+Note that in future versions (`sprockets` version 4) it will be done in `assets/config/manifest.js` file.  
 
 
 How asset compilation is done:
